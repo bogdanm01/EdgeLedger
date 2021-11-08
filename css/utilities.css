@@ -27,12 +27,16 @@
   background: var(--primary-color);
   color: #fff;
   border-radius: 20px;
-  transition: all 0.15s;
-  margin: 0 10px;
+  transition: all 0.25s;
+  margin: 0 8px;
 }
 
 .btn:hover {
-  opacity: 0.9;
+  box-shadow: inset 0 0 20px #d49bfa81, 0 0 25px #b038ffdc;
+}
+
+.btn-outline:hover{
+  box-shadow: inset 0 0 20px #d49bfa81, 0 0 25px #e4bcffdc;
 }
 
 .btn-primary {
@@ -55,14 +59,9 @@
   background-color: #fff;
 }
 
-.btn-group {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .btn-outline {
   border: 2px solid #fff;
   background: rgba(0, 0, 0, 0);
   color: #fff;
+  border-radius: 23px;
 }
