@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+/* Colors */
+:root {
+  --primary-color: #7428a7;
+  --secondary-color: #0284d0;
+}
+
+/* Text color */
+.text-primary {
+  color: var(--primary-color)
+}
+
+.text-secondary {
+  color: var(--secondary-color)
+}
+
+.bold {
+  font-weight: 600;
+}
+
+/* Buttons */
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 20px;
+  transition: all 0.15s;
+  margin: 0 10px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-primary {
+  background: #28a745;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: #0284d0;
+  color: #fff;
+}
+
+.btn-dark {
+  background: #333;
+  color: #fff;
+}
+
+.btn-light {
+  color: #333;
+  background-color: #fff;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-outline {
+  border: 2px solid #fff;
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+}
