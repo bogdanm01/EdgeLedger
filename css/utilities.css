@@ -124,5 +124,8 @@
 .small-card img{
   width: 20%;
   margin-right: 20px;
+
+  filter: brightness(80%);
+  -webkit-filter: brightness(80%);
 }
 

@@ -1,0 +1,20 @@
+@media screen  and (min-width: 2160px ) {
+  html:not(.hero .content) {
+    zoom: 150%;
+    zoom: 1.50;
+  }
+
+  .hero {
+    height: 70vh;
+    /* zoom: 100%;
+    zoom: 1; */
+  }
+
+  .hero .content #test {
+    zoom: 120%;
+  }
+
+  .hero .navbar {
+    zoom: 120%;
+  }
+}
