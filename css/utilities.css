@@ -93,6 +93,9 @@
   color: #f4f4f4;
   border-radius: 100%;
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card h3 {
@@ -106,7 +109,7 @@
   width: 100%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
   background: #f6f6f6;
-  padding: 30px;
+  padding: 23px 30px;
   border-radius: 15px;
   transition: 250ms all ease-in-out;
   cursor: pointer;
@@ -120,5 +123,6 @@
 
 .small-card img{
   width: 20%;
+  margin-right: 20px;
 }
 

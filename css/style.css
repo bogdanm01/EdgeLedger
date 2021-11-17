@@ -78,8 +78,6 @@ img {
   animation: zoom ease-in-out 80s;
 }
 
-
-
 @keyframes zoom {
   0% {
     background-size: 100% 100%;
@@ -190,6 +188,11 @@ img {
   padding: 10px 0;
 }
 
+#cards .small {
+  width: 80%;
+}
+
+
 /* Industries */
 #industries {
   height: 100%;
@@ -214,3 +217,12 @@ img {
   justify-content: center;
   grid-gap: 33px;
 }
+
+#blog {
+  height: 200px;
+  display: flex;
+  /* align-items: center; */
+  /* padding: 20px; */
+  /* background: #f6f6f6; */
+}
+
