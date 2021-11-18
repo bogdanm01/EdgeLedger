@@ -192,7 +192,6 @@ img {
   width: 80%;
 }
 
-
 /* Industries */
 #industries {
   height: 100%;
@@ -207,8 +206,6 @@ img {
 
 #industries p {
   text-align: center;
-  /* margin: 10px auto; */
-  /* max-width: 400px; */
 }
 
 #industries #cards {
@@ -221,8 +218,6 @@ img {
 #blog {
   height: 200px;
   display: flex;
-  /* align-items: center; */
-  /* padding: 20px; */
-  /* background: #f6f6f6; */
 }
+
 
