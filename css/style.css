@@ -13,6 +13,7 @@ body, html {
   color: #333;
   line-height: 1.6;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 ul {
@@ -166,6 +167,7 @@ img {
 #about {
   height: 100%;
   padding: 110px 40px;
+  padding-bottom: 160px;
 }
 
 #about h2 {
@@ -196,6 +198,7 @@ img {
 #industries {
   height: 100%;
   padding: 110px 40px;
+  padding-bottom: 60px;
 }
 
 #industries h2 {
@@ -208,16 +211,50 @@ img {
   text-align: center;
 }
 
-#industries #cards {
-  display: grid;
-  grid-template-columns: repeat(autofit, minmax(300px, max-content));
-  justify-content: center;
-  grid-gap: 33px;
+#cases {
+  height: 100%;
+  padding: 110px 50px;
 }
 
-#blog {
-  height: 200px;
+#cases .section-header {
   display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
+#cases  h2 {
+  font-size: 2.3rem;
+  font-weight: 400px;
+}
+
+#cases .gallery {
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(390px, max-content));
+  grid-gap: 10px;
+  align-items: stretch;
+  justify-content: center;
+}
+
+#cases .gallery img{
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+  transition: all 0.7s;
+}
+
+#cases .gallery .img-container {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+#cases .gallery img:hover {
+  transform: scale(1.1);
+  transform-origin: 50% 50%;
+}
+
+#blog .column-2 {
+  padding-left: 150px;
+}
 
