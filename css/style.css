@@ -13,7 +13,8 @@ body, html {
   color: #333;
   line-height: 1.6;
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  height: 100%;
+  /* overflow-x: hidden; */
 }
 
 ul {
@@ -38,6 +39,15 @@ img {
   width: 100%;
 }
 
+.hero {
+  background: url('https://images.unsplash.com/photo-1569001178320-92c99c3f1a25?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80') fixed no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  color: #fff;
+  background-size: 100% 100%;
+  animation: zoom ease-in-out 80s;
+}
+
 /* Navbar */
 .navbar {
   display: flex;
@@ -49,8 +59,13 @@ img {
   position: fixed;
   top: 0;
   padding: 0 50px;
-  z-index: 2;
-  animation: fade-in 0.2s ease-in-out;
+  z-index: 1;
+  background: rgba(51, 51, 51, 0.486);
+  transition: 0.5s;
+}
+
+.navbar.top {
+  background: transparent;
 }
 
 .navbar nav ul {
@@ -70,14 +85,7 @@ img {
 }
 
 /* Header */
-.hero {
-  background: url('https://images.unsplash.com/photo-1569001178320-92c99c3f1a25?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80') fixed no-repeat center center/cover;
-  height: 100vh;
-  position: relative;
-  color: #fff;
-  background-size: 100% 100%;
-  animation: zoom ease-in-out 80s;
-}
+
 
 @keyframes zoom {
   0% {
@@ -255,6 +263,6 @@ img {
 }
 
 #blog .column-2 {
-  padding-left: 150px;
+  padding-left: 20%;
 }
 

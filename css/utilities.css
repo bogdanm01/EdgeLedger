@@ -49,8 +49,6 @@
   color: #fff;
 }
 
-
-
 .btn-light {
   color: #333;
   background-color: #fff;
@@ -78,6 +76,11 @@
 
 .bg-primary {
   background: var(--primary-color);
+  color: #fff;
+}
+
+.bg-primary-gradient {
+  background: linear-gradient( rgb(199, 56, 235), var(--primary-color));
   color: #fff;
 }
 
