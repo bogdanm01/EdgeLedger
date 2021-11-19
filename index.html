@@ -190,16 +190,14 @@
   </main>
   <script>
     const navbar = document.getElementById('navbar');
-      let scrolled = false;
 
-      window.onscroll = function () {
-        if (window.pageYOffset > 500) {
-          navbar.classList.remove('top');
-        } else {
-          navbar.classList.add('top');
-          scrolled = false;
-        }
-      };
+    window.onscroll = function () {
+      if (window.pageYOffset > 500) {
+        navbar.classList.remove('top');
+      } else {
+        navbar.classList.add('top');
+      }
+    };
   </script>
 </body>
 </html>
