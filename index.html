@@ -26,14 +26,12 @@
       </nav>
     </div>
     <div class="content">
-      <div id="test">
         <h1>The Sky Is <span style="font-weight: 400;">Not</span> The Limit</h1>
         <p>#1 Holding company in the whole galaxy and beyond.</p>
           <div class="btn-width">
             <a href="#industries" class="btn"></i> Read More</a>
             <a href="" class="btn btn-light btn-outline">Our Blog</a>
           </div>
-      </div>      
     </div>
   </header>
   <main>
@@ -149,7 +147,21 @@
         </div>
       </div>
     </section>
-    <!-- <section id="cases" class="cases flex-grid section-padding">
+    <section id="blog">
+      <div class="container">
+        <div class="flex-columns">
+          <div class="left">
+            <h4>19 November 2021</h4>
+            <h2>Top Crypto Picks This Month</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ipsam ea maxime inventore fugit cumque debitis cupiditate asperiores, natus ad? Dolore libero aliquam exercitationem molestias distinctio sunt ullam consectetur iste?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ad blanditiis sunt ratione in, fugit consequuntur ea ullam delectus minima!</p>
+            <a href="#" class="btn btn-outline btn-dark btn-square">Read Our Blog</a>
+          </div>
+          <div class="right"></div> 
+        </div>
+      </div>
+    </section>
+    <section id="cases" class="cases flex-grid section-padding">
         <header class="section-header">
           <h2>This Is Who We Are</h2>
           <p>Capture<span style="font-weight: 600;"> #InfinitySpirit </span>trough our epic gallery</p>
@@ -173,42 +185,16 @@
               <img src="./img/cases/cases6.jpg" alt="slika">
             </div>  
         </div>   
-    </section> -->
-    <!-- <section id="blog" class="blog flex-columns flex-reverse">
-      <div class="row">
-        <div class="column">
-          <div class="column-1">
-            <img src="./img/home/blog.jpg" alt="">
-          </div>
-        </div>
-        <div class="column">
-          <div class="column-2 bg-light">
-            <h4>November 27 2021</h4>
-            <h2>5 Tips for tax evasion (just kiddin')</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, itaque? Iure deleniti a beatae. Porro, sequi explicabo architecto velit sint placeat eius blanditiis repellat corrupti accusantium ullam commodi quisquam pariatur.</p>
-            <a href="#" class="btn btn-outline btn-dark btn-square">
-              <i class="fas fa-chevron"></i>
-              Read Our Blog
-            </a>
-          </div>
-        </div>
-      </div>
-    </section> -->
+    </section>
+    
   </main>
   <script>
     const navbar = document.getElementById('navbar');
       let scrolled = false;
 
       window.onscroll = function () {
-        if (window.pageYOffset > 700) {
+        if (window.pageYOffset > 500) {
           navbar.classList.remove('top');
-          // if (!scrolled) {
-          //   navbar.style.transform = 'translateY(-70px)';
-          // }
-          // setTimeout(function () {
-          //   navbar.style.transform = 'translateY(0)';
-          //   scrolled = true;
-          // }, 200);
         } else {
           navbar.classList.add('top');
           scrolled = false;

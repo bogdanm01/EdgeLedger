@@ -143,6 +143,10 @@
   -webkit-filter: brightness(80%);
 }
 
+.flex-columns {
+  display: flex;
+}
+
 .flex-columns .row{
   display: flex;
   flex-direction: row;
