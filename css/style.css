@@ -236,7 +236,7 @@ img {
 #cases .gallery {
   padding: 40px 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(390px, max-content));
+  grid-template-columns: repeat(auto-fill, minmax(500px, max-content));
   grid-gap: 10px;
   align-items: stretch;
   justify-content: center;
