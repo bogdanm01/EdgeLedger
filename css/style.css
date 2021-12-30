@@ -346,7 +346,11 @@ img {
   }
 
   .navbar a{
-    padding: 3px;
+    padding: 0px;
+  }
+
+  .navbar li a{
+    margin-right: 10px;
   }
 
   .flex-items{
@@ -378,6 +382,11 @@ img {
   #cards {
     justify-content: center;
   }
+
+  #cases .gallery .img-container {
+    overflow: hidden;
+    max-width: 87.5%;
+}
 
   
 }
