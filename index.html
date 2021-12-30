@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Welcome To Infinity</title>
   <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
   <link rel="stylesheet" href="css/4k.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -167,23 +168,37 @@
           <p>Capture<span style="font-weight: 600;"> #InfinitySpirit </span>trough our epic gallery</p>
         </header>
         <div class="gallery">
-            <div class="img-container">
+            <a href="./img/cases/cases1.jpg" data-lightbox="gallery">
+              <div class="img-container">           
               <img src="./img/cases/cases1.jpg" alt="slika"></div>
-            <div class="img-container">
-              <img src="./img/cases/cases2.jpg" alt="slika">
-            </div>  
-            <div class="img-container">
-              <img src="./img/cases/cases3.jpg" alt="slika">
-            </div>  
-            <div class="img-container">
-              <img src="./img/cases/cases4.jpg" alt="slika">
-            </div>  
-            <div class="img-container">
-              <img src="./img/cases/cases5.jpg" alt="slika">
-            </div>  
-            <div class="img-container">
-              <img src="./img/cases/cases6.jpg" alt="slika">
-            </div>  
+            </a>
+
+            <a href="./img/cases/cases2.jpg" data-lightbox="gallery">
+              <div class="img-container">
+                <img src="./img/cases/cases2.jpg" alt="slika">
+              </div>
+            </a>
+            <a href="./img/cases/cases3.jpg" data-lightbox="gallery">
+              <div class="img-container">
+                <img src="./img/cases/cases3.jpg" alt="slika">
+              </div>
+            </a>
+            <a href="./img/cases/cases4.jpg" data-lightbox="gallery">
+              <div class="img-container">
+                <img src="./img/cases/cases4.jpg" alt="slika">
+              </div>
+            </a>
+            <a href="./img/cases/cases5.jpg" data-lightbox="gallery">
+              <div class="img-container">
+                <img src="./img/cases/cases5.jpg" alt="slika">
+              </div>
+            </a>
+            <a href="./img/cases/cases6.jpg" data-lightbox="cases">
+              <div class="img-container">
+                <img src="./img/cases/cases6.jpg" alt="slika">
+              </div>
+            </a>
+            
         </div>   
     </section>
 
@@ -228,6 +243,11 @@
     </div>
     <p>Copyright &copy; 2021 - InfinityHoldings</p>
   </footer>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="js/lightbox.min.js"></script>
   <script>
     const navbar = document.getElementById('navbar');
 
