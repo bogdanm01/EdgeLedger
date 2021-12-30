@@ -63,8 +63,8 @@
 }
 
 .btn-dark {
-  color: #333;
-  border: 2px solid #333;
+  background: #333;
+  color: #fff;
 }
 
 .btn-square {
