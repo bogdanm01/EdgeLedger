@@ -29,6 +29,7 @@
   border-radius: 20px;
   transition: all 0.25s;
   margin: 0 8px;
+  border: none;
 }
 
 .btn:hover {
@@ -72,6 +73,11 @@
 
 .bg-light {
   background: #f4f4f4;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
 }
 
 .bg-primary {
