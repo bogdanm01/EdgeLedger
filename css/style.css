@@ -337,3 +337,47 @@ img {
   color: #b038ffdc;
 }
 
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;
+  }
+
+  .navbar a{
+    padding: 3px;
+  }
+
+  .flex-items{
+    flex-direction: column;
+  }
+
+  .flex-columns .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  #blog .flex-columns {
+    flex-direction: column-reverse;
+  }
+
+  #blog .left {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  #blog .left p {
+    max-width: 100%;
+  }
+  
+  #blog .right {
+    display: none;
+  }
+
+  #cards {
+    justify-content: center;
+  }
+
+  
+}
